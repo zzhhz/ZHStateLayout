@@ -1,0 +1,7 @@
+<resources>
+    <!-- 全局配置的空数据布局名称 -->
+    <string name="zh_state_layout_empty_layout"></string>
+
+    <!-- 全局配置的错误状态布局名称 -->
+    <string name="zh_state_layout_error_layout"></string>
+</resources>
