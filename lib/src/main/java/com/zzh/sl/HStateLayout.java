@@ -2,12 +2,12 @@ package com.zzh.sl;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.BaseAdapter;
 import android.widget.FrameLayout;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.zzh.sl.empty.AdapterEmptyStrategy;
 import com.zzh.sl.empty.HStateEmptyStrategy;

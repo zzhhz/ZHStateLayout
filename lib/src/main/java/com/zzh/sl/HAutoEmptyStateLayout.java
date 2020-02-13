@@ -1,7 +1,6 @@
 package com.zzh.sl;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,12 +10,12 @@ import com.zzh.sl.empty.AdapterViewEmptyStrategy;
 import com.zzh.sl.empty.CombineEmptyStrategy;
 import com.zzh.sl.empty.HStateEmptyStrategy;
 import com.zzh.sl.empty.RecyclerViewEmptyStrategy;
-
+import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-
+import android.content.Context;
 /**
  * 调用{@link #autoEmpty()}方法之后，自动设置空布局策略
  */

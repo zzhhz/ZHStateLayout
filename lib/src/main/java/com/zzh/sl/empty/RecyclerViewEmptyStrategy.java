@@ -1,7 +1,6 @@
 package com.zzh.sl.empty;
 
-
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerViewEmptyStrategy extends SourceCountEmptyStrategy<RecyclerView> {
     public RecyclerViewEmptyStrategy(RecyclerView source) {
