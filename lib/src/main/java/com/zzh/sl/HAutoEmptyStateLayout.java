@@ -10,12 +10,13 @@ import com.zzh.sl.empty.AdapterViewEmptyStrategy;
 import com.zzh.sl.empty.CombineEmptyStrategy;
 import com.zzh.sl.empty.HStateEmptyStrategy;
 import com.zzh.sl.empty.RecyclerViewEmptyStrategy;
-import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import android.content.Context;
+import androidx.recyclerview.widget.RecyclerView;
+
 /**
  * 调用{@link #autoEmpty()}方法之后，自动设置空布局策略
  */
